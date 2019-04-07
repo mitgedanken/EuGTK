@@ -7,3 +7,6 @@ EuGTK wraps the GTK3 calls in a sudo object-oriented fashion; you create GTK obj
 
 Development is fast, since Euphoria is one of the fastest interpreters available, making the development cycle easy (you just test each line of code as you add it) - and Euphoria can optionally convert your code to C and compile it into an executable with a single call.
 
+For more information:
+https://sites.google.com/site/euphoriagtk/Home
+
