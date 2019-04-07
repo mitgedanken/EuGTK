@@ -1,6 +1,5 @@
 ![Hello.ex](https://github.com/irvm/EuGTK/blob/master/hello.png?raw=true)
 
-#EuGTK
 A cross-platform GTK3 library for the [Euphoria](http://openeuphoria.org) programming language. EuGTK makes it easy to create modern, professional programs quickly. 
 
 Euphoria is a powerful but easy-to-learn programming language. It has a simple syntax and structure with consistent rules, and is also easy to read. You can quickly, and with little effort, develop applications, big and small, for Windows, Unix variants (Linux, FreeBSD, ...) and OS X. 
