@@ -43,4 +43,4 @@ constant
 show_all(win) --[4] instantiate widgets; 
 main()        --[5] enter main processing loop; 
 ```
-[[https://github.com/irvm/EuGTK/blob/master/hello.png|Hello.ex]]
+https://github.com/irvm/EuGTK/blob/master/hello.png
