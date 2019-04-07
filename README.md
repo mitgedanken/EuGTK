@@ -28,8 +28,8 @@ constant
 --[2] mark up label using basic html; 
 
     set(lbl,"markup", 
-    "&lt;b&gt;&lt;u&gt;&lt;span color='red'&gt;&lt;big&gt;Hello World!&lt;/big&gt;&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;\n\n" &amp; 
-    "This demos a simple window with\na label and a quit button.\n")
+         "<b><u><span color='red'><big>Hello World!</big></span></u></b>\n\n" &
+	 "This demos a simple window with\na label and a quit button.\n")
 
 --[3] add widgets to containers; 
 
