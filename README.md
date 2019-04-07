@@ -17,7 +17,6 @@ https://sites.google.com/site/euphoriagtk/Home
 include GtkEngine.e
 
 --[1] create the widgets;
-
 constant   
 	win = create(GtkWindow,"border width=10,icon=face-laugh,$destroy=Quit"),<br />
 	pan = create(GtkBox,"orientation=vertical"), <br />
@@ -26,13 +25,11 @@ constant
 	lbl = create(GtkLabel,"color=blue")
 
 --[2] mark up label using basic html; 
-
     set(lbl,"markup", 
-         "<b><u><span color='red'><big>Hello World!</big></span></u></b>\n\n" &
+       "<b><u><span color='red'><big>Hello World!</big></span></u></b>\n\n" &
 	 "This demos a simple window with\na label and a quit button.\n")
 
 --[3] add widgets to containers; 
-
     add(win,pan)  <br />
     add(pan,lbl)  <br />
     add(box,btn)  <br />
