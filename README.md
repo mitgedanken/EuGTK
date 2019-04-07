@@ -43,4 +43,4 @@ constant
 show_all(win) --[4] instantiate widgets; 
 main()        --[5] enter main processing loop; 
 ```
-[[https://sites.google.com/site/euphoriagtk/_/rsrc/1504358358725/Home/hello.png]]
+[[https://github.com/irvm/EuGTK/blob/master/hello.png]]
