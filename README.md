@@ -17,6 +17,7 @@ https://sites.google.com/site/euphoriagtk/Home
 include GtkEngine.e
 
 --[1] create the widgets;
+
 constant   
 	win = create(GtkWindow,"border width=10,icon=face-laugh,$destroy=Quit"),<br />
 	pan = create(GtkBox,"orientation=vertical"), <br />
