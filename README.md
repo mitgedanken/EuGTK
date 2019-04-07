@@ -10,6 +10,7 @@ Development is fast, since Euphoria is one of the fastest interpreters available
 For more information:
 https://sites.google.com/site/euphoriagtk/Home
 
+```
 ----------------------------------------------------------------------------
 --# Example: Yet Another Hello World! program
 ----------------------------------------------------------------------------
@@ -19,24 +20,25 @@ include GtkEngine.e
 --[1] create the widgets;
 
 constant   
-	win = create(GtkWindow,"border width=10,icon=face-laugh,$destroy=Quit"),<br />
-	pan = create(GtkBox,"orientation=vertical"), <br />
-	box = create(GtkButtonBox), <br />
-	btn = create(GtkButton,"gtk-quit", "Quit"),<br />
+	win = create(GtkWindow,"border width=10,icon=face-laugh,$destroy=Quit"),
+	pan = create(GtkBox,"orientation=vertical"), 
+	box = create(GtkButtonBox), 
+	btn = create(GtkButton,"gtk-quit", "Quit"),
 	lbl = create(GtkLabel,"color=blue")
 
 --[2] mark up label using basic html; 
 
     set(lbl,"markup", 
-       "<b><u><span color='red'><big>Hello World!</big></span></u></b>\n\n" &
-	 "This demos a simple window with\na label and a quit button.\n")
+	"<b><u><span color='red'><big>Hello World!</big></span></u></b>\n\n" &
+	"This demos a simple window with\na label and a quit button.\n")
 
 --[3] add widgets to containers; 
 
-    add(win,pan)  <br />
-    add(pan,lbl)  <br />
-    add(box,btn)  <br />
+    add(win,pan)  
+    add(pan,lbl)  
+    add(box,btn)  
     pack(pan,-box)
  
-show_all(win) --[4] instantiate widgets; <br />
-main()        --[5] enter main processing loop; <br />
+show_all(win) --[4] instantiate widgets; 
+main()        --[5] enter main processing loop; 
+```
