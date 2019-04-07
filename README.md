@@ -19,22 +19,23 @@ include GtkEngine.e
 --[1] create the widgets;
 
 constant   
-    win = create(GtkWindow,"border width=10,icon=face-laugh,$destroy=Quit"),
-    pan = create(GtkBox,"orientation=vertical"), 
-    box = create(GtkButtonBox),
-    btn = create(GtkButton,"gtk-quit", "Quit"),
+    win = create(GtkWindow,"border width=10,icon=face-laugh,$destroy=Quit"),<br />
+    pan = create(GtkBox,"orientation=vertical"), <br />
+    box = create(GtkButtonBox), <br />
+    btn = create(GtkButton,"gtk-quit", "Quit"),<br />
     lbl = create(GtkLabel,"color=blue")
 
---[2] set some properties;
-    set(lbl,"markup", -- style the text using basic html;
-    "<b><u><span color='red'><big>Hello World!</big></span></u></b>\n\n" &
+--[2] mark up label using basic html;
+    set(lbl,"markup", 
+    <br />
+    "&lt;b&gt;&lt;u&gt;&lt;span color='red'&gt;&lt;big&gt;Hello World!&lt;/big&gt;&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;\n\n" &amp; <br />
     "This demos a simple window with\na label and a quit button.\n")
 
---[3] add widgets to containers;
-    add(win,pan)
-    add(pan,lbl)
-    add(box,btn)
+--[3] add widgets to containers; <br />
+    add(win,pan)  <br />
+    add(pan,lbl)  <br />
+    add(box,btn)  <br />
     pack(pan,-box)
  
-show_all(win) --[4] instantiate widgets;
-main()        --[5] enter main processing loop;
+show_all(win) --[4] instantiate widgets; <br />
+main()        --[5] enter main processing loop; <br />
