@@ -19,11 +19,11 @@ include GtkEngine.e
 --[1] create the widgets;
 
 constant   
-    win = create(GtkWindow,"border width=10,icon=face-laugh,$destroy=Quit"),<br />
-    pan = create(GtkBox,"orientation=vertical"), <br />
-    box = create(GtkButtonBox), <br />
-    btn = create(GtkButton,"gtk-quit", "Quit"),<br />
-    lbl = create(GtkLabel,"color=blue")
+	win = create(GtkWindow,"border width=10,icon=face-laugh,$destroy=Quit"),<br />
+	pan = create(GtkBox,"orientation=vertical"), <br />
+	box = create(GtkButtonBox), <br />
+	btn = create(GtkButton,"gtk-quit", "Quit"),<br />
+	lbl = create(GtkLabel,"color=blue")
 
 --[2] mark up label using basic html;
     set(lbl,"markup", 
