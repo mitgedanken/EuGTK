@@ -4,6 +4,7 @@ A cross-platform GTK3 library for the [Euphoria](http://openeuphoria.org) progra
 Euphoria is a powerful but easy-to-learn programming language. It has a simple syntax and structure with consistent rules, and is also easy to read. You can quickly, and with little effort, develop applications, big and small, for Windows, Unix variants (Linux, FreeBSD, ...) and OS X. 
 
 EuGTK wraps the [GTK3](http://gtk.org) calls in a sudo object-oriented fashion; you create GTK objects, and then set or get properties of those objects. There's no need to manually lay out "widgets", this is handled automatically. 
+No tricky sizing or layout code is required, and all that crazy type-casting you have to do with other programming languages doesn't exist! In addition, EuGTK provides 'wrappers' around several of the more difficult-to-use Gtk widgets (e.g. GtkListView) which makes them much easier to use.
 
 Development is fast, since Euphoria is one of the fastest interpreters available, making the development cycle easy (you just test each line of code as you add it) - and Euphoria can optionally convert your code to C and compile it into an executable with a single call.
 
